@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: simple-chatbot
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY}
+        model: gemini-pro
+        chat.options.model: gemini-flash-latest
